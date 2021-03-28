@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar closed">
+      <div class="navbar--container">
+        <div class="navbar__logo">
+          <img class="navbar__logo_img" src="./files/img/logo.svg" alt="логотип"/>
+          <div class="navbar__logo_text">BECO</div>
+        </div>
+        <div class="navbar__item">
+          <img class="navbar__item_img" src="./files/img/catalog.svg" alt="каталог"/>
+          <div class="navbar__item_text">Каталог</div>
+        </div>
+        <div class="navbar__item">
+          <img class="navbar__item_img" src="./files/img/health.svg" alt="здоровье"/>
+          <div class="navbar__item_text">Здоровье</div>
+        </div>
+        <div class="navbar__item">
+          <img class="navbar__item_img" src="./files/img/love.svg" alt="красота"/>
+          <div class="navbar__item_text">Красота</div>
+        </div>
+        <div class="navbar__item">
+          <img class="navbar__item_img" src="./files/img/cat.svg" alt="развлечения"/>
+          <div class="navbar__item_text">Развлечения</div>
+        </div>
+        <div class="navbar__item">
+          <img class="navbar__item_img" src="./files/img/car.svg" alt="авто"/>
+          <div class="navbar__item_text">Авто</div>
+        </div>
+        <div class="navbar__close_btn" id="close-btn">
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="header">
+        <div class="header__title">
+          Развлечения
+        </div>
+        <div class="header__search">
+          <input
+            class="header__search_input"
+            type="search"
+            placeholder="Какой магазин вам нужен?"
+          />
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Пробка на мира</div>
+              <div class="coupon__content_title--description">Вечер для двоих</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">-50%</div>
+              <div class="coupon__content_discount--type">Скидка</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/vine.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Кино и немцы</div>
+              <div class="coupon__content_title--description">Бесплатный бокал пива</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">Варвар</div>
+              <div class="coupon__content_discount--type">Промокод</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/bear.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Valery cakes</div>
+              <div class="coupon__content_title--description">Торт</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">30%</div>
+              <div class="coupon__content_discount--type">Скидка</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/cake.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Sushi sell</div>
+              <div class="coupon__content_title--description">Набор "Праздник"</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">45%</div>
+              <div class="coupon__content_discount--type">Скидка</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/sushi.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Mangosteen</div>
+              <div class="coupon__content_title--description">Фрукт в подарок</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">J130</div>
+              <div class="coupon__content_discount--type">Купон</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/fruits.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Теленок табака</div>
+              <div class="coupon__content_title--description">Стейк "Мачете"</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">20%</div>
+              <div class="coupon__content_discount--type">Скидка</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/meat.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Fire food</div>
+              <div class="coupon__content_title--description">Вторая шаурма в подарок</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">Огонь</div>
+              <div class="coupon__content_discount--type">Промокод</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/shawerma.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Aroma Crimeria</div>
+              <div class="coupon__content_title--description">Джелато "Пармезан"</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">20%</div>
+              <div class="coupon__content_discount--type">Скидка</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/icecream.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Пробка на мира</div>
+              <div class="coupon__content_title--description">Вечер для двоих</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">-50%</div>
+              <div class="coupon__content_discount--type">СКИДКА</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/vine.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Кино и немцы</div>
+              <div class="coupon__content_title--description">Бесплатный бокал пива</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">Варвар</div>
+              <div class="coupon__content_discount--type">Промокод</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/bear.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Valery cakes</div>
+              <div class="coupon__content_title--description">Торт</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">30%</div>
+              <div class="coupon__content_discount--type">Скидка</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/cake.png"/>
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="coupon__content">
+            <div class="coupon__content_title">
+              <div class="coupon__content_title--name">Sushi sell</div>
+              <div class="coupon__content_title--description">Набор "Праздник"</div>
+            </div>
+            <div class="coupon__discount">
+              <div class="coupon__content_discount--num">45%</div>
+              <div class="coupon__content_discount--type">Скидка</div>
+            </div>
+          </div>
+          <div class="coupon__image">
+            <img src="./files/img/coupons/sushi.png"/>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
