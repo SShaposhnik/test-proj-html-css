@@ -65,6 +65,10 @@
     visibility: visible;
   }
 
+  .navbar__item {
+    padding-left: 41px !important;
+  }
+
   .navbar__logo_img {
     width: 24px;
     height: 24px;
@@ -203,10 +207,6 @@ body {
 .opened-nav-bar div{
   visibility: visible !important;
 }
-
-/* .opened-nav-bar .navbar__close_btn {
-  left: 240px;
-} */
 
 .opened-nav-bar .navbar__close_btn {
   background-image: url('./files/img/menu exit.svg');
